@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="repository.grabber66" name="Grabber66 Addon Repo" version="1.0.1" provider-name="Grabber66">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Grabber66 Addon Repo">
+        <dir minversion="18.9.9">
+            <info compressed="true">https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons/matrix/</datadir>
+            <hashes>false</hashes>
+        </dir>
+     </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de">private Addons</summary>
+        <description lang="de">private changes of some addons should not missed</description>
+        <disclaimer/>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="skin.aeon.nox.pvr" version="8.0.1" name="Aeon Nox: SiLVO-PVR" provider-name="SiLVO, Grabber66">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0" />
