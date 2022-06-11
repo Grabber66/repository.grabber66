@@ -31,10 +31,10 @@
 		</extension>
 </addon>
 
-<addon id="plugin.video.openmedia" name="OpenMedia" version="1.0.8" provider-name="Team">
+<addon id="plugin.video.openmedia" name="OpenMedia" version="1.0.9" provider-name="Team">
  <requires>
     <import addon="script.module.requests"/>
-    <import addon="script.module.resolveurl" version="5.1.67"/>
+    <import addon="script.module.resolveurl" version="5.1.54"/>
     <import addon="script.module.six" version="1.11.0"/>
     <import addon="script.module.inputstreamhelper" version="0.3.3" optional="true"/>
  </requires>
@@ -51,7 +51,7 @@
    <platform>all</platform>
    <news>
      - siehe Changelog
-     - 03.06.22 3a317ecadaf71839e61f9ed0453253c9d14cc307
+     - 6.5.22 f760716ebf8a11c4c1f59abd7bdad9df143cdf22
    </news>
    <assets>
      <icon>icon.png</icon>
