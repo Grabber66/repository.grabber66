@@ -40,4 +40,9 @@ for name in *; do
 echo $name
 done
  echo "</addons>" >> $REPO/addons.xml
+ echo "<dir>" >> $REPO/addons.xml
+ echo "   <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>" >> $REPO/addons.xml
+ echo "   <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>" >> $REPO/addons.xml
+ echo "   <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>" >> $REPO/addons.xml
+ echo "</dir>" >> $REPO/addons.xml
  md5sum  $REPO/addons.xml > $REPO/addons.xml.md5
