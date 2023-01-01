@@ -31,7 +31,7 @@
 		</extension>
 </addon>
 
-<addon id="plugin.video.openmedia" name="OpenMedia" version="1.1.9" provider-name="Team">
+<addon id="plugin.video.openmedia" name="OpenMedia" version="1.2.0" provider-name="Team">
  <requires>
     <import addon="repository.resolveurl" optional="true"/>
     <import addon="script.module.requests"/>
@@ -217,7 +217,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary.pvr" version="3.4.2+matrix.12" name="Estuary MOD PVR Matrix" provider-name="PvD, PVR branch by Grabber66">
+<addon id="skin.estuary.pvr" version="3.4.2+matrix.16" name="Estuary MOD PVR Matrix" provider-name="PvD, PVR branch by Grabber66">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.gui" version="5.15.0"/>
