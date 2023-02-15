@@ -61,15 +61,21 @@
  </extension>
 </addon>
 
-<addon id="repository.grabber66" name="Grabber66 Addon Repo" version="1.0.3" provider-name="Grabber66">
+<addon id="repository.grabber66" name="Grabber66 Addon Repo" version="1.0.4" provider-name="Grabber66">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
     <extension point="xbmc.addon.repository" name="Grabber66 Addon Repo">
-        <dir minversion="18.9.9">
+        <dir maxversion="19.9.9">
             <info compressed="true">https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons/matrix/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="20.0.0">
+            <info compressed="true">https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons/nexus/</datadir>
             <hashes>false</hashes>
         </dir>
 	<dir>
@@ -217,7 +223,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary.pvr" version="4.1.1+nexus" name="Estuary MOD PVR Matrix" provider-name="PvD, PVR branch by Grabber66">
+<addon id="skin.estuary.pvr" version="4.1.1+nexus" name="Estuary MOD PVR Nexus" provider-name="PvD, PVR branch by Grabber66">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="xbmc.gui" version="5.16.0"/>
