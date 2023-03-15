@@ -223,7 +223,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary.pvr" version="4.1.1+nexus.4" name="Estuary MOD PVR Nexus" provider-name="PvD, PVR branch by Grabber66">
+<addon id="skin.estuary.pvr" version="4.1.1+nexus.5" name="Estuary MOD PVR Nexus" provider-name="PvD, PVR branch by Grabber66">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="xbmc.gui" version="5.16.0"/>
