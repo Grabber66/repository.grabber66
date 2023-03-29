@@ -45,4 +45,10 @@ done
  echo "   <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>" >> $REPO/addons.xml
  echo "   <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>" >> $REPO/addons.xml
  echo "</dir>" >> $REPO/addons.xml
- md5sum  $REPO/addons.xml > $REPO/addons.xml.md5
+ echo "<dir minversion="19.9.9">" >> $REPO/addons.xml
+echo "   <info compressed="true">https://repo.kodinerds.net/addons/nexus/addons.xml</info>" >> $REPO/addons.xml
+echo "   <checksum>https://repo.kodinerds.net/addons/nexus/addons.xml.md5</checksum>" >> $REPO/addons.xml
+echo "   <datadir zip="true">https://repo.kodinerds.net/addons/nexus/zip/</datadir>" >> $REPO/addons.xml
+echo "   <hashes>false</hashes>" >> $REPO/addons.xml
+echo "</dir>" >> $REPO/addons.xml
+md5sum  $REPO/addons.xml > $REPO/addons.xml.md5
