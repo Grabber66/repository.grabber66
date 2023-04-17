@@ -61,7 +61,7 @@
  </extension>
 </addon>
 
-<addon id="repository.grabber66" name="Grabber66 Addon Repo" version="1.0.4" provider-name="Grabber66">
+<addon id="repository.grabber66" name="Grabber66 Addon Repo" version="1.1.0" provider-name="Grabber66">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -83,6 +83,12 @@
 	    <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
 	    <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
 	</dir>
+        <dir minversion="19.9.9">
+            <info compressed="true">https://repo.kodinerds.net/addons/nexus/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/nexus/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons/nexus/zip/</datadir>
+            <hashes>false</hashes>
+        </dir>
      </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="de">private Addons</summary>
@@ -223,7 +229,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary.pvr" version="4.1.1+nexus.7" name="Estuary MOD PVR Nexus" provider-name="PvD, PVR branch by Grabber66">
+<addon id="skin.estuary.pvr" version="4.1.1+nexus.10" name="Estuary MOD PVR Nexus" provider-name="PvD, PVR branch by Grabber66">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="xbmc.gui" version="5.16.0"/>
@@ -242,6 +248,7 @@
 		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
 	</extension>
 	<extension point="xbmc.service" library="scripts/services.py" visible="!String.IsEmpty(Window(home).Property(CurrentSkin))" />
+	<extension point="xbmc.python.script" library="scripts/helpers.py" />
 	<extension point="kodi.context.item">
       	<menu id="kodi.core.main">
       		<item library="scripts/context_menu_jumptoletter.py">
@@ -286,4 +293,10 @@
    <info compressed=false>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
    <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
    <datadir zip=true>https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+</dir>
+<dir minversion=19.9.9>
+   <info compressed=true>https://repo.kodinerds.net/addons/nexus/addons.xml</info>
+   <checksum>https://repo.kodinerds.net/addons/nexus/addons.xml.md5</checksum>
+   <datadir zip=true>https://repo.kodinerds.net/addons/nexus/zip/</datadir>
+   <hashes>false</hashes>
 </dir>
