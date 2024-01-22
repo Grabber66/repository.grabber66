@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<addon id="repository.grabber66" name="Grabber66 Addon Repo" version="1.2.0" provider-name="Grabber66">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Grabber66 Addon Repo">
+        <dir minversion="18.9.701" maxversion="19.9.700">
+            <info compressed="true">https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons/matrix/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons/matrix/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons/matrix/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="19.9.701" maxversion="20.9.700">
+            <info compressed="true">https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons/nexus/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons/nexus/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons/nexus/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="20.9.910" maxversion="21.9.700">
+            <info compressed="true">https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons/omega/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons/omega/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Grabber66/repository.grabber66/master/addons/omega/</datadir>
+            <hashes>false</hashes>
+		</dir>
+	<dir>
+	    <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+	    <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+	    <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+	</dir>
+        <dir>
+            <info compressed="true">https://repo.kodinerds.net/addons/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons</datadir>
+            <hashes>false</hashes>
+        </dir>
+     </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de">private Addons</summary>
+        <description lang="de">private changes of some addons should not missed</description>
+        <disclaimer/>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
