@@ -47,7 +47,7 @@
     </extension>
 </addon>
 
-<addon id="skin.estuary.pvr" version="21.2.0+omega.10" name="Estuary MOD PVR Omega" provider-name="PvD, PVR branch by Grabber66">
+<addon id="skin.estuary.pvr" version="21.2.0+omega.17" name="Estuary MOD PVR Omega" provider-name="PvD, PVR branch by Grabber66">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="xbmc.gui" version="5.17.0"/>
@@ -70,13 +70,13 @@
 	<extension point="kodi.context.item">
       	<menu id="kodi.core.main">
       		<item library="scripts/context_menu_jumptoletter.py">
- 				<label>$LOCALIZE[31365]</label>
- 				<visible>!String.IsEmpty(Window(home).Property(CurrentSkin)) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,set) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,artist) | String.IsEqual(ListItem.dbtype,album) | String.IsEqual(ListItem.dbtype,musicvideo) | Container.Content(addons)] + !Window.IsVisible(Home)</visible>
- 			</item>
+			<label>$LOCALIZE[31365]</label>
+			<visible>!String.IsEmpty(Window(home).Property(CurrentSkin)) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,set) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,artist) | String.IsEqual(ListItem.dbtype,album) | String.IsEqual(ListItem.dbtype,musicvideo) | Container.Content(addons)] + !Window.IsVisible(Home)</visible>
+		</item>
       		<item library="scripts/context_menu_moviessets.py">
- 				<label>$LOCALIZE[31381]</label>
- 				<visible>!String.IsEmpty(Window(home).Property(CurrentSkin)) + String.IsEqual(ListItem.DBType,set) + !Window.IsVisible(Home)</visible>
- 			</item>
+			<label>$LOCALIZE[31381]</label>
+			<visible>!String.IsEmpty(Window(home).Property(CurrentSkin)) + String.IsEqual(ListItem.DBType,set) + !Window.IsVisible(Home)</visible>
+		</item>
     	</menu>
  	</extension>
 	<extension point="xbmc.addon.metadata">
