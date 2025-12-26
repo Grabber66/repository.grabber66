@@ -82,7 +82,7 @@
     </extension>
 </addon>
 
-<addon id="skin.estuary.pvr" version="21.2.1+omega.27" name="Estuary MOD PVR Omega" provider-name="PvD, PVR branch by Grabber66">
+<addon id="skin.estuary.pvr" version="21.3+omega.0" name="Estuary MOD PVR Omega" provider-name="PvD, PVR branch by Grabber66">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="xbmc.gui" version="5.17.0"/>
